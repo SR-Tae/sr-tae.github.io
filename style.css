@@ -47,3 +47,70 @@ footer {
   border-top: 1px solid #ddd;
   color: #999;
 }
+.image-container {
+  position: relative;
+  width: 100vw;
+  height: 50vh;
+}
+
+.image-container img {
+  width: 80%;
+  height: 60%;
+  display: block;
+}
+
+.text-overlay {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 10px 20px;
+  border-radius: 10px;
+}
+
+.resume-button {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 16px;
+  text-decoration: none;
+  background-color: #007BFF;
+  color: white;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+.resume-button:hover {
+  background-color: #0056b3;
+}
+
+.image-link {
+  display: inline-flex;
+  align-items: center;
+  text-decoration: none;
+  background-color: #007BFF;
+  color: white;
+  padding: 10px 15px;
+  border-radius: 8px;
+  transition: background-color 0.3s;
+}
+
+.image-link:hover {
+  background-color: #0056b3;
+}
+
+.image-link img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.image-link span {
+  font-size: 16px;
+  font-weight: bold;
+}
+
